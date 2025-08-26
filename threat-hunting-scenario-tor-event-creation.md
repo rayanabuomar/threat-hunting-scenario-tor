@@ -94,4 +94,4 @@ DeviceFileEvents
 ## Revision History:
 | **Version** | **Changes**                   | **Date**         | **Modified By**   |
 |-------------|-------------------------------|------------------|-------------------|
-| 1.0         | Initial draft                  | `August  15, 2025`  | `Rayan Abu Omar`   
+| 1.0         | Initial draft                  | `August  14, 2025`  | `Rayan Abu Omar`   
