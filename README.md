@@ -41,7 +41,7 @@ DeviceFileEvents
 | project Timestamp, DeviceName, ActionType, FileName, FolderPath, SHA256, Account = InitiatingProcessAccountName
 ```
 
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/6171e10a-648e-4dab-aa5c-a66b3d5161a0" />
+<img width="1550" alt="image" src="https://github.com/user-attachments/assets/6171e10a-648e-4dab-aa5c-a66b3d5161a0" />
 
 
 
@@ -60,7 +60,7 @@ DeviceProcessEvents
 | where FileName contains "tor-browser"
 | project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/c404af20-612b-4df2-9fe4-9b85996e02ab" />
+<img width="1550" alt="image" src="https://github.com/user-attachments/assets/c404af20-612b-4df2-9fe4-9b85996e02ab" />
 
 
 
@@ -80,7 +80,7 @@ DeviceProcessEvents
 | project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine
 | order by Timestamp desc
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/a7e8420d-237b-4224-8983-6e0a6322604e" />
+<img width="1550" alt="image" src="https://github.com/user-attachments/assets/a7e8420d-237b-4224-8983-6e0a6322604e" />
 
 
 ---
@@ -100,7 +100,7 @@ DeviceNetworkEvents
 | project Timestamp, DeviceName, InitiatingProcessAccountName, ActionType, RemoteIP, RemotePort, RemoteUrl, InitiatingProcessFileName, InitiatingProcessFolderPath
 | order by Timestamp desc
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/0210d1ca-afba-4397-a909-62c96774c34f" />
+<img width="1550" alt="image" src="https://github.com/user-attachments/assets/0210d1ca-afba-4397-a909-62c96774c34f" />
 
 
 ---
